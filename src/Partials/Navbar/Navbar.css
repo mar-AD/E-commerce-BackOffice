@@ -1,0 +1,89 @@
+:root {
+    --background: #f8e4af;
+    --background1: #590404;
+    --background2: #080708;
+    --background3: white;
+    --background4: white;
+    --background5: #080708;
+    --background6: #590404;
+  }
+  .isLightMode {
+    --background: #590404;
+    --background1: #f8e4af;
+    --background2: white;
+    --background3: #f8e4af;
+    --background4: #000000;
+    --background5: #fdca40;
+    --background6: #080708;
+  }
+  /* #fdca40-#f8e4af-#c2c3c6-#590404-#f8b930-#080708 */
+.navbars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: Navbar;
+    background-color: var(--background);
+    padding: 40px;
+}
+.title{
+    font-size: 34px; 
+    color: var(--background2);
+    width: 30%;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: #c2c3c644;
+    border-radius: 15px;
+    width: 35%;
+    transition: transform 0.3s ease;
+}
+/* .search:hover {
+    background: linear-gradient(to right, #fdca40, #f8e4af);
+  } */
+.search-icon{
+    color: #c2c3c6;
+    margin: 10px 0px 10px 10px ;
+}
+.search-input{
+    margin: 5px;
+    padding: 5px;
+    font-style: none;
+    border: none;
+    background: transparent;
+    width: 25vw;
+    border-radius: 0px 100px 100px 0px;
+    outline: none;
+    font-size: 14px;
+}
+.right-buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    width: 40%;
+}
+.notifications{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;    
+    border-radius: 15px;
+    padding: 8px;
+    border: 2px solid; 
+    background: transparent;
+    color: var(--background2);
+}
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 8px;
+    border: 2px solid; 
+    background: transparent;
+    color: var(--background2);
+    
+/* #fdca40-#d9bd76-#c2c3c644-#c2c3c6-#f8e4af-#c2c3c6-#590404-#f8b930-#080708-#a80b0b */
+}
