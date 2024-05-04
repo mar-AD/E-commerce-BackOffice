@@ -12,7 +12,7 @@ import Menu from "./Partials/Menu/Menu";
 import Navbar from "./Partials/Navbar/Navbar";
 import Categories from "./pages/Catrgories/Catrgories.jsx";
 import Subcategories from "./pages/Subcategories/Subcategories.jsx";
-import PasswordResetProcess from "./Pages/Login/PasswordReset.jsx";
+import PasswordResetProcess from "./pages/Login/PasswordReset.jsx";
 import { AuthContext } from "./AuthContext";
 import './App.css'
 
