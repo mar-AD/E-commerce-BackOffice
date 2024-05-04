@@ -13,9 +13,7 @@
    align-items: center;
    height: 100vh;
    width: 100vw;
-   background-image: url(../../assets/caleb-george-5sF6NrB1MEg-unsplash.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
+   background: linear-gradient(to bottom, #590404, #F8E4AF);
    overflow: hidden;
 } 
 .bodys-res{
