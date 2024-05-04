@@ -7,7 +7,7 @@ import ManageAccountsOutlinedIcon from '@mui/icons-material/ManageAccountsOutlin
 import SortByAlphaIcon from '@mui/icons-material/SortByAlpha';
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./customers.css";
+import "./Customers.css";
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

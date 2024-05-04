@@ -1,8 +1,8 @@
 
 import React, { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import "./login.css";
-import logo from "../../assets/tst.png";
+import "./Login.css";
+import logo from "../../Assets/tst.png";
 import axios from "axios";
 import { AuthContext } from "../../AuthContext";
 import { ToastContainer, toast } from 'react-toastify';

@@ -1,20 +1,20 @@
 import React, { useContext } from "react";
 import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
-import Login from "./pages/Login/Login.jsx";
-import Dashboard from "./pages/Dashboard/Dashboard.jsx";
-import Edit from "./pages/Edit/Edit.jsx";
-import Users from "./pages/Users/Users.jsx";
-import Customers from "./pages/Customers/Customers.jsx";
-import Orders from "./pages/Orders/Orders.jsx";
-import Payement from "./pages/Payement/Payement.jsx";
-import ProductsList from "./pages/Products/Products.jsx";
+import Login from "./Pages/Login/Login.jsx";
+import Dashboard from "./Pages/Dashboard/Dashboard.jsx";
+import Edit from "./Pages/Edit/Edit.jsx";
+import Users from "./Pages/Users/Users.jsx";
+import PasswordResetProcess from "./Pages/Login/PasswordReset.jsx";
+import Customers from "./Pages/Customers/Customers.jsx";
+import Orders from "./Pages/Orders/Orders.jsx";
+import Payement from "./Pages/Payement/Payement.jsx";
+import ProductsList from "./Pages/Products/Products.jsx";
 import Menu from "./Partials/Menu/Menu";
 import Navbar from "./Partials/Navbar/Navbar";
-import Categories from "./pages/Catrgories/Catrgories.jsx";
-import Subcategories from "./pages/Subcategories/Subcategories.jsx";
+import Categories from "./Pages/Catrgories/Catrgories.jsx";
+import Subcategories from "./Pages/Subcategories/Subcategories.jsx";
 import { AuthContext } from "./AuthContext";
 import './App.css'
-import PasswordResetProcess from "./Pages/Login/PasswordReset.jsx";
 
 function App() {
   const authCtx = useContext(AuthContext);
