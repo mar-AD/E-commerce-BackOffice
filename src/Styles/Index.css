@@ -1,0 +1,10 @@
+#root {
+  display: grid;
+  background-color: var(--background);
+  top: 0;
+  grid-template-columns: 260px 1fr; 
+  grid-template-rows: 15% 1fr; 
+  grid-template-areas:
+    "Menu Navbar"
+    "Menu body";
+}

@@ -14,7 +14,7 @@ import Navbar from "./Partials/Navbar/Navbar";
 import Categories from "./Pages/Catrgories/Catrgories.jsx";
 import Subcategories from "./Pages/Subcategories/Subcategories.jsx";
 import { AuthContext } from "./AuthContext";
-import './App.css'
+import './Styles/App.css'
 
 function App() {
   const authCtx = useContext(AuthContext);
