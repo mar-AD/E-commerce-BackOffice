@@ -26,24 +26,24 @@ function App() {
         <Routes>
           {!authCtx.token || authCtx.refToken ? (
             <>
-              <Route path="/login" element={<Login />} />
+              <Route path="/Login" element={<Login />} />
               <Route path="/reset-password/:token" element={<PasswordResetProcess />} />
             </>
           ) : (
             <>
               <Route path="/" element={<Dashboard />} />
-              <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/edit" element={<Edit />} />
-              <Route path="/users" element={<Users />} />
-              <Route path="/customers" element={<Customers />} />
-              <Route path="/orders" element={<Orders />} />
-              <Route path="/payement" element={<Payement />} />
-              <Route path="/products" element={<ProductsList />} />
-              <Route path="/categories" element={<Categories />} />
-              <Route path="/subcategories" element={<Subcategories />} />
+              <Route path="/Dashboard" element={<Dashboard />} />
+              <Route path="/Edit" element={<Edit />} />
+              <Route path="/Users" element={<Users />} />
+              <Route path="/Customers" element={<Customers />} />
+              <Route path="/Orders" element={<Orders />} />
+              <Route path="/Payement" element={<Payement />} />
+              <Route path="/Products" element={<ProductsList />} />
+              <Route path="/Categories" element={<Categories />} />
+              <Route path="/Subcategories" element={<Subcategories />} />
             </>
           )}
-          <Route path="*" element={<Navigate to="/login" />} />
+          <Route path="*" element={<Navigate to="/Login" />} />
         </Routes>
       </BrowserRouter>
     </>
