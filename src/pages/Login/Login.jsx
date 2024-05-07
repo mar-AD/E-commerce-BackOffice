@@ -101,6 +101,11 @@ function Login() {
           <button className="formbutton" onClick={handleLogin} type="submit">
             Login
           </button>
+          <p style={{color:'green'}}>
+            Use this to log in : <br/>
+            user name : visitor visite <br/>
+            password : example_visitor
+          </p>
           <p className="forgot-password" onClick={handleForgotPassword}>
             Forgot Password?
           </p>
